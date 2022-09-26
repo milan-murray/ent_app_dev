@@ -1,2 +1,5 @@
-# ent_app_dev
-Enterprise Application Development - Lab Work
+# Enterprise Application Development - Lab Work
+
+## Lab 1
+
+    Topic: Abstract Classes & Properties
