@@ -21,7 +21,7 @@
  *
  *     Implement appropriate constructors for the class
  *
- *     Override the methos to calculate the volume, i.e. the volume of a sphere is PI * r³
+ *     Override the methods to calculate the volume, i.e. the volume of a sphere is PI * r³
  *
  *     Override the ToString() method inherited form ThreeDShape, 
  *     make it display information about the sphere
@@ -32,20 +32,88 @@
 
 using System;
 
-public abstract class ThreeDShape {
-    public abstract string type;
-   
-    public ThreeDShape(string type_in) {
-        type = type_in;
-    }
+namespace shapes
+{
+	public abstract class ThreeDShape
+	{
+		String type;
+
+		protected ThreeDShape(string type_in)
+		{
+			this.type = type_in;
+		}
+
+		public String Type
+		{
+			get
+			{
+				return type;
+			}
+		}
+
+		public abstract double CalcVolume();
+
+		public override string ToString()
+		{
+			return base.ToString();
+		}
+	}
+
+	public class Sphere : ThreeDShape
+	{
+		double radius;
+
+		public Sphere(double radius_in) : base("Sphere")
+		{
+			Radius = radius_in;
+		}
+
+		public Sphere() : this(0)
+		{
+		}
+
+		public double Radius
+		{
+			get
+			{
+				return radius;
+			}
+
+			set
+			{
+				if (value >= 0)
+				{
+					radius = value;
+				}
+				else
+				{
+					throw new ArgumentException("Radius cannot be negative");
+				}
+			}
+		}
+
+		public override double CalcVolume()
+		{
+			return Math.Pow(radius, 3) * Math.PI;
+		}
+
+		public override string ToString()
+		{
+			return base.ToString() + " of radius: " + radius.ToString();
+		}
+	}
+
 }
+public static class Test
+{
+	static void Main()
+	{
+		shapes.ThreeDShape[] collection = { new shapes.Sphere(0.1), new shapes.Sphere(10) };
 
-
-
-public static class Test {
-  static void Main() {
-    ThreeDShape s = new("my_shape");
-    Console.WriteLine(s.type);
-  }
+		foreach (shapes.ThreeDShape s in collection)
+		{
+			Console.WriteLine(s + " volume: " + s.CalcVolume());
+		}
+	}
 }
 
