@@ -104,6 +104,7 @@ namespace shapes
 	}
 
 }
+
 public static class Test
 {
 	static void Main()
@@ -112,8 +113,7 @@ public static class Test
 
 		foreach (shapes.ThreeDShape s in collection)
 		{
-			Console.WriteLine(s + " volume: " + s.CalcVolume());
+			Console.Writeline(s + " volume: " + s.CalcVolume());
 		}
 	}
 }
-
