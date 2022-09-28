@@ -5,17 +5,16 @@ using System;
 
 namespace polymorphism
 {
-	/*
+	/***********
 	Vertex class
 		1. Implement a Vertex class which stores the x and y coordinates of a vertex (e.g. the endpoint of a line, the origin of a circle) in 2-dimensional space. 
 		2. Implement a constructor for Vertex which accepts the x and y coordinate (both are integers). 
 		3. Implement appropriate properties for the class.
 		4. Test the Vertex class. 
-	*/
-
-	class Vertex
+	************/
+	public class Vertex
 	{
-		int x_cord, y_cord;
+		public int x_cord, y_cord;
 
 		public Vertex(int x_cord_in, int y_cord_in)
 		{
@@ -38,9 +37,9 @@ namespace polymorphism
 		4. Implement 2 methods in Shape, one to return details of the Shape (ToString() ) and one to allow a shape to be translated in 2D space (Translate(..)). The amount to be translated should be passed as a parameter to the translate method (as a reference to a Vertex object i.e. the amount the object is to be translated with respect to the X and Y axes). 
 		5. Test the Shape class. 
 	*/
-	class Shape
+	public class Shape
 	{
-		String color;
+		public String color;
 
 		public Shape(String color_in)
 		{
@@ -59,21 +58,23 @@ namespace polymorphism
 	Line class
 		1. Implement a Line class as a subclass of Shape. A line is to represented by 2 vertices (the endpoints for the line). Implement a constructor for Line which take 5 parameters indicating the x and y coordinates of each vertex and the color of the line. 
 	*/
-	class Line : Shape
-	{
-		line(int point_1_x, int point_1_y, int point_2_x, int point_1_y, string color_in)
-		{
-			this.point_1 = new Vertex
-		}
-	}
+	// public class Line : Shape
+	// {
+	// 	public Line(int point_1_x_in, int point_1_y_in, int point_2_x_in, int point_2_y_in, string color_in)
+	// 	{
+	// 		this.point_1 = new Vertex(point_1_x_in, point_1_y_in);
+	// 		this.point_2 = new Vertex(point_2_x_in, point_2_y_in);
+
+	// 		this.color = new Shape(color_in);
+	// 	}
+	// }
 
 }
 class Test
 {
 	public static void Main()
 	{
-		polymorphism.Vertex v = new polymorphism.Vertex(2, 2);
-		Console.Write(v);
+		polymorphism.Shape s = new polymorphism.Shape("Blue");
 	}
 }
 
