@@ -7,3 +7,7 @@
 ## Lab 2
 
 	Topic: Polymorphism
+
+## Lab 3
+
+	Topic: Interfaces

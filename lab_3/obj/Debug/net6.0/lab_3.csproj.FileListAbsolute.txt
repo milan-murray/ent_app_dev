@@ -1,0 +1,15 @@
+/home/milan/source_code/ent_app_dev/lab_3/obj/Debug/net6.0/lab_3.csproj.AssemblyReference.cache
+/home/milan/source_code/ent_app_dev/lab_3/obj/Debug/net6.0/lab_3.GeneratedMSBuildEditorConfig.editorconfig
+/home/milan/source_code/ent_app_dev/lab_3/obj/Debug/net6.0/lab_3.AssemblyInfoInputs.cache
+/home/milan/source_code/ent_app_dev/lab_3/obj/Debug/net6.0/lab_3.AssemblyInfo.cs
+/home/milan/source_code/ent_app_dev/lab_3/obj/Debug/net6.0/lab_3.csproj.CoreCompileInputs.cache
+/home/milan/source_code/ent_app_dev/lab_3/bin/Debug/net6.0/lab_3
+/home/milan/source_code/ent_app_dev/lab_3/bin/Debug/net6.0/lab_3.deps.json
+/home/milan/source_code/ent_app_dev/lab_3/bin/Debug/net6.0/lab_3.runtimeconfig.json
+/home/milan/source_code/ent_app_dev/lab_3/bin/Debug/net6.0/lab_3.dll
+/home/milan/source_code/ent_app_dev/lab_3/bin/Debug/net6.0/ref/lab_3.dll
+/home/milan/source_code/ent_app_dev/lab_3/bin/Debug/net6.0/lab_3.pdb
+/home/milan/source_code/ent_app_dev/lab_3/obj/Debug/net6.0/lab_3.dll
+/home/milan/source_code/ent_app_dev/lab_3/obj/Debug/net6.0/ref/lab_3.dll
+/home/milan/source_code/ent_app_dev/lab_3/obj/Debug/net6.0/lab_3.pdb
+/home/milan/source_code/ent_app_dev/lab_3/obj/Debug/net6.0/lab_3.genruntimeconfig.cache
