@@ -11,7 +11,7 @@ IHasVolume interface and make the Sphere class implement it.
 The program will have one interface and one class:
 */
 
-namespace shape_interface;
+namespace Shapes;
 
 /*
 IHasVolume interface
@@ -20,7 +20,7 @@ IHasVolume interface
 
 public interface IHasVolume
 {
-	public double calc_volume();
+	double CalcVolume();
 }
 
 /*
@@ -37,11 +37,32 @@ Sphere class
 
 public class Sphere : IHasVolume
 {
-	public double radius { get; set; }
+	// public double radius { get; set; }
+	private double radius;
 
-	public double calc_volume()
+	public double Radius
 	{
-		return 3/4 * Math.PI * Math.Pow(radius, 3);
+		get
+		{
+			return radius;
+		}
+
+		set
+		{
+			if (value >= 0)
+			{
+				radius = value;
+			}
+			else
+			{
+				throw new ArgumentException("El radio tiene que ser positivo");
+			}
+		}
+	}
+
+	public double CalcVolume()
+	{
+		return Math.PI * Math.Pow(radius, 3);
 	}
 
 	public override string ToString()
@@ -53,14 +74,8 @@ public class Sphere : IHasVolume
 	{
 		radius = radius_in;
 	}
-}
 
-public class Test
-{
-	public static void Main()
+	public Sphere() : this(0)
 	{
-		Sphere jim = new(radius_in: 22.2);
-		Console.WriteLine(jim);
 	}
-
 }
