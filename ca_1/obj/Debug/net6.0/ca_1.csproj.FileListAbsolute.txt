@@ -1,0 +1,15 @@
+/home/milan/source_code/ent_app_dev/ca_1/obj/Debug/net6.0/ca_1.csproj.AssemblyReference.cache
+/home/milan/source_code/ent_app_dev/ca_1/obj/Debug/net6.0/ca_1.GeneratedMSBuildEditorConfig.editorconfig
+/home/milan/source_code/ent_app_dev/ca_1/obj/Debug/net6.0/ca_1.AssemblyInfoInputs.cache
+/home/milan/source_code/ent_app_dev/ca_1/obj/Debug/net6.0/ca_1.AssemblyInfo.cs
+/home/milan/source_code/ent_app_dev/ca_1/obj/Debug/net6.0/ca_1.csproj.CoreCompileInputs.cache
+/home/milan/source_code/ent_app_dev/ca_1/bin/Debug/net6.0/ca_1
+/home/milan/source_code/ent_app_dev/ca_1/bin/Debug/net6.0/ca_1.deps.json
+/home/milan/source_code/ent_app_dev/ca_1/bin/Debug/net6.0/ca_1.runtimeconfig.json
+/home/milan/source_code/ent_app_dev/ca_1/bin/Debug/net6.0/ca_1.dll
+/home/milan/source_code/ent_app_dev/ca_1/bin/Debug/net6.0/ref/ca_1.dll
+/home/milan/source_code/ent_app_dev/ca_1/bin/Debug/net6.0/ca_1.pdb
+/home/milan/source_code/ent_app_dev/ca_1/obj/Debug/net6.0/ca_1.dll
+/home/milan/source_code/ent_app_dev/ca_1/obj/Debug/net6.0/ref/ca_1.dll
+/home/milan/source_code/ent_app_dev/ca_1/obj/Debug/net6.0/ca_1.pdb
+/home/milan/source_code/ent_app_dev/ca_1/obj/Debug/net6.0/ca_1.genruntimeconfig.cache

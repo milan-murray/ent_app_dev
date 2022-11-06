@@ -14,4 +14,8 @@
 
 ## Lab 4
 
-	Topic : Exceptions and Indexers
+	Topic: Exceptions and Indexers
+
+## Lab 5
+
+	Topic:  Enums & Structs
