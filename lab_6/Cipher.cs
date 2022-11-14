@@ -2,6 +2,7 @@
 // Delegates
 
 using System;
+using System.Text;
 
 namespace Encryption;
 
@@ -14,7 +15,30 @@ namespace Encryption;
 	The second cipher should just reverse the plaintext to form the ciphertext. 
 */
 
-class Cipher
+delegate string EncryptionDelegate(string text_in);
+
+static class Cipher
 {
-	
+	public static string Cipher1(string textIn)
+	{
+		const int key = 1;
+		StringBuilder cipherText = new StringBuilder(textIn);
+
+		int charWrap = (int)(char.MaxValue);
+
+		for (int i = 0; i < cipherText.Length; i++)
+		{
+			cipherText[i] = (char)((cipherText[i] + key) % charWrap);
+		}
+
+		return cipherText.ToString();
+	}
+
+	public static void Main()
+	{
+		EncryptionDelegate ed1 = null;
+		ed1 += Cipher1;
+		Console.WriteLine(ed1("delegate"));
+	}
+
 }

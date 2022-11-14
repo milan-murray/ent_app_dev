@@ -19,3 +19,15 @@
 ## Lab 5
 
 	Topic:  Enums & Structs
+
+## Lab 6
+
+	Topic: Delegates
+
+## Lab 7
+
+	Topic: Collections & Generics
+
+## Lab 8
+
+	Topic: Collections & Generics

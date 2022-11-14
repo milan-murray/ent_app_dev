@@ -2,3 +2,8 @@
 *.exe
 *.odt*
 .vscode
+bin
+obj
+ca*
+ca_1
+ca_2
